@@ -14,7 +14,9 @@ const List = () => {
       <ul className="py-10 flex flex-row gap-4">
         {links.map(link => (
           <li key={link.name}>
-            <a className="text-black hover:bg-gray-100 font-light border border-gray-300 rounded-full px-9 py-6 text-3xl">
+            <a 
+            href="/#"
+            className="text-black hover:bg-gray-100 font-light border border-gray-300 rounded-full px-9 py-6 text-3xl">
               {link.name}
             </a>
           </li>

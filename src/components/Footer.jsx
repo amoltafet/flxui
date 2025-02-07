@@ -5,7 +5,7 @@ const Footer = () => {
           {/* Bottom Section */}
           <div className="flex justify-between items-center border-t border-gray-300 pt-4 border-b border-gray-300 pb-4">
             <p>&copy; flxui.com. All rights reserved.</p>
-            <a href="#" className="text-orange-500 hover:underline">
+            <a href="/#" className="text-orange-500 hover:underline">
               Privacy Policy
             </a>
           </div>

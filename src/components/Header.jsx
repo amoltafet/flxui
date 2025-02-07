@@ -9,7 +9,9 @@ const Header = () => {
             flxui
           </h1>
         <div className="flex items-center gap-4">
-          <a className="text-white bg-black hover:bg-gray-800 font-light rounded-full px-6 py-3 cursor-pointer">
+          <a
+          href="/flxui"
+          className="text-white bg-black hover:bg-gray-800 font-light rounded-full px-6 py-3 cursor-pointer">
             Get the demo
           </a>
         </div>
