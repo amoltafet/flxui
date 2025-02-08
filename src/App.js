@@ -6,15 +6,18 @@ import Footer from './components/Footer.jsx';
 import List from './components/List.tsx';
 import Video from './components/Video';
 import Role from './components/Role';
-
+import Header from './components/Header'; 
 function App() {
   return (
     <div className="overflow-x-hidden">
-      <Hero />
-      <div className="px-4 md:px-[15%] sm:px-0">
+ 
+      <div className="md:px-[15%] sm:px-3 gap-2">
+        <Header />
+        <Hero />
         <Role />
+        <img src="/quick.png" alt="Analytics" className="w-full rounded-4xl mt-1" />
         <TextSection />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
           <Video />
           <WhyUs />
         </div>

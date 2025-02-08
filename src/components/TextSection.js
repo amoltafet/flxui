@@ -30,7 +30,7 @@ const TextSection = () => {
   const rightCards = cards.slice(half);
 
   return (
-    <section className="py-20 px-4">
+    <section className="py-2">
     
       {/* Two Column Layout */}
       <div className="flex flex-col md:flex-row gap-2 cursor-pointer">
